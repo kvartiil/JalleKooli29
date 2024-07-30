@@ -1,0 +1,25 @@
+import { Component, VERSION, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'alagraafik',
+  templateUrl: './alagraafik.component.html',
+  styleUrls: [ './alagraafik.component.scss' ]
+})
+export class AlagraafikComponent implements OnInit  {
+  type:any;
+  options: any;
+  
+  ngOnInit(): void {
+
+    this.options = {
+    
+
+      
+    };
+
+
+  }
+
+
+}
+

@@ -1,0 +1,112 @@
+.tekstike {
+  position: relative;
+  width: 1034px;
+  height: 32px;
+  padding-top: 1px;
+  padding-left: 40px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #4f4f4f; /* #09090b;*/
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 24px;
+}   
+
+.tekstikev {
+  position: relative;
+  width: 1034px;
+  /*height: 24px;*/
+  padding-top: 1px;
+  padding-left: 40px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #4f4f4f; /* #09090b;*/
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -12px;
+}   
+
+.tekstike2 {
+  position: relative;
+  width: 1034px;
+  height: 48px;
+  padding-top: 1px;
+  padding-left: 40px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #4f4f4f;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -30px;
+}  
+
+.tekstike2a {
+  position: relative;
+  width: 1034px;
+  height: 24px;
+  padding-top: 1px;
+  padding-left: 40px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #4f4f4f;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 0px;
+}  
+
+#employees {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 10px;
+  
+  
+}
+
+#employees td, #employees th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#employees tr:nth-child(even){background-color: #f2f2f2;}
+
+#employees tr:hover {background-color: #ddd;}
+
+#employees th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  background-color: #005AA3; /*#005AA3'*/
+  color: #fff;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 14px; 
+
+}
+
+#employees td {
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #4f4f4f;
+  font-size: 14px; 
+}
+
+#employees2 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: 40px;
+  border-color: var(--colors-blue-blue-300, #99bdda);
+  
+}
+
+#employees2 td, #employees2 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  
+  
+}
+

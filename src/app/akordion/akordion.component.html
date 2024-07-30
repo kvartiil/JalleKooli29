@@ -1,0 +1,33 @@
+<div class="raamYmber" >
+
+  <br>
+  <div class="tekstike">
+  
+  Olulised selgitused informaatika sissejuhatuses
+  
+  </div>
+  
+  <br>
+  
+  <div class="tekstike2a">
+  
+  Allpool on toodud mitmed küsimused ja vastused, mida informaatika sissejuhatuse kursuse läbija une pealt teadma peab.
+  <br> <br>
+  </div>
+  
+  <div *ngFor="let section of sections; let i = index;">
+    <button class="accordion" (click) = "expand(i)"> <span class="tekstikev">{{section.name}}</span></button>
+  
+    <!--div class="raamYmber" -->
+  
+    <div class="panel"
+      [ngClass]="{ 'visible' : currentIndex === i }">
+      <span class="tekstike2">{{section.content}}</span>
+        
+  </div>
+  
+  </div>
+  
+  </div>
+  
+  

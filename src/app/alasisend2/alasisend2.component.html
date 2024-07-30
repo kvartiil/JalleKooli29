@@ -1,0 +1,10 @@
+<p>aluskiri</p>
+
+<div class="example-boundary" (click)="clickInBoundry($event)">
+  <div #cursor class="example-box" cdkDragBoundary=".example-boundary" cdkDragLockAxis="x" cdkDrag (cdkDragMoved)="dragEnd($event)" (mouseup)="sliderEvent()">
+  I can only be dragged left/right
+</div>
+</div>
+
+<span>{{value}}</span>
+{{uusvaartus}}
